@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { UsersComponent } from './users/users.component';
 import { EmailBlastComponent } from './email-blast/email-blast.component';
 import { AdminComponent } from './admin.component';
 
@@ -10,7 +9,7 @@ const routes: Routes = [
     path: 'admin',
     component: AdminComponent,
     children: [
-      { path: '', component: UsersComponent },
+      { path: '', component: AdminComponent },
       { path: 'blast', component: EmailBlastComponent },
     ]
   }
