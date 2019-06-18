@@ -11,7 +11,7 @@ import { AdminModule } from './admin/admin.module';
   declarations: [
     AppComponent,
     DashboardComponent,
-    CustomerComponent
+    CustomerComponent,
   ],
   imports: [
     BrowserModule,
